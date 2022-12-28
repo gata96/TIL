@@ -51,13 +51,18 @@ Q. 로컬드라이브에서 파일 삭제하면 GitHub에서 사라지나?
 
     *"git아, 원격저장소를 추가해. (원격저장소의 이름은) origin이야."*
 
-5) 원격저장소 정보 확인
 
+<br>
+5) 기존의 origin(원격저장소)가 존재한다면, origin을 삭제하여 연결 끊어주기.
+
+`$ git remote rm origin`
+
+원격 저장소와의 연결이 잘 끊어졌는지 확인
 `$ git remote -v`
 
 <br>
 
-6) 로컬의 commit된 버전을 github에 Push하기
+6)로컬의 commit된 버전을 github에 Push하기
 
 `$ git push origin master`
 
@@ -69,7 +74,7 @@ github는 로컬 폴더/파일을 삭제,수정,변경하는 등 관리하는 �
 
 <br>
 
-7) 로컬 저장소의 버전을 원격저장소로 Pull하기
+7)로컬 저장소의 버전을 원격저장소로 Pull하기
 
 `$ git pull origin master` 
 
@@ -77,11 +82,7 @@ github는 로컬 폴더/파일을 삭제,수정,변경하는 등 관리하는 �
 
 
 
-8) 원격저장소 삭제
 
-`$ remote rm origin`
-
-    $ remote rm <원격저장소>
 
 <br>
 
