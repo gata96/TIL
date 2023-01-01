@@ -1,3 +1,5 @@
+# KDT 2기 12월 27일 학습 내용
+
 # CLI (Command Line Interface)
 > ### Command를 Line 별로 타이핑하며 유저와 소통하는 방식
 
@@ -147,3 +149,8 @@ push/pull
 git push origin master
 git pull origin master
 ```
+
+💡 하루일지
+Markdown이 첫번째 과제였고, Git이 두번째 과제였는데, 두번째 과제를 아직 못해서 그냥 잘까도 생각했다.  
+근데 이대로 자면, 복습도 완전히 못하고 과제도 못한게 되어서 내일이 되면 새로운 내용이 많이 나오기 때문에  
+더 벅차질 것 같아서 피곤하지만 끝까지 하려고 노력했다. **오늘 공부한 건 오늘 끝내기!! ** 뿌듯쓰!!
