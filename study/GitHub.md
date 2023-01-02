@@ -29,40 +29,31 @@ Q. 로컬드라이브에서 파일 삭제하면 GitHub에서 사라지나?
 
 # 원격저장소 GitHub 설정하기
 
-    $ git push
-    - 로컬 저장소(유저 컴퓨터)의 버전을 원격저장소(GitHub)로 보낸다.
-
-    $ git pull
-    - 원격저장소의 버전을 로컬 저장소(유저 컴퓨터)로 가져온다.
 
 1) GitHub New Repository 만들기
 
-2) 저장소 이름 설정 (예: test)
+2) URL 확인 & 복사
 
-3) URL 확인 & 복사
-
-`https://github.com/gata96/test.git`
+`https://github.com/gata96/TIL.git`
 
     gata96 :깃헙 유저네임
-    test: 저장소 이름
+    TIL: 저장소 이름
 
-4) 로컬저장소에 원격 저장소 정보 입력하기
-즉, 내 vs code에 github주소 가져오기
+3) 깃헙과 로컬 연결하기
 
-`$ git remote add origin https://github.com/gata96/test.git`
+`$ git remote add origin https://github.com/gata96/TIL.git`
 
     *"git아, 원격저장소를 추가해. (원격저장소의 이름은) origin이야."*
 
-
 <br>
-5) 기존의 origin(원격저장소)가 존재한다면, origin을 삭제하여 연결 끊어주기.
 
-`$ git remote rm origin`
-
-원격 저장소와의 연결이 잘 끊어졌는지 확인
-`$ git remote -v`
-
+4) 연결 여부 확인
+```gish
+git remote -v
+```
 <br>
+
+5)add ->commit
 
 6)로컬의 commit된 버전을 github에 Push하기
 
@@ -82,8 +73,8 @@ github는 로컬 폴더/파일을 삭제,수정,변경하는 등 관리하는 �
 
     $ git pull <원격저장소><브랜치이름>
 
-
-
+* 기존의 origin(원격저장소)가 존재한다면, origin을 삭제하여 깃헙과 연결 끊어주기.
+`$ git remote rm origin`
 
 
 <br>
