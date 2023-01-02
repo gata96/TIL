@@ -41,10 +41,10 @@ Q. 로컬드라이브에서 파일 삭제하면 GitHub에서 사라지나?
 
 3) URL 확인 & 복사
 
-`https://github.com/gata96/test.git`
+`https://github.com/gata96/TIL.git`
 
     gata96 :깃헙 유저네임
-    test: 저장소 이름
+    TIL: 저장소 이름
 
 4) 로컬저장소에 원격 저장소 정보 입력하기
 즉, 내 vs code에 github주소 가져오기
