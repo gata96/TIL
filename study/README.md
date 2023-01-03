@@ -1,7 +1,7 @@
 # Today I Learned 📚
----
+
 ## Index 📜
----
+
 - Markdown
 - Git
 - GitHub
