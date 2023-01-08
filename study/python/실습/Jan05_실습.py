@@ -16,6 +16,16 @@ for element in string:
 
 print(len(string_list))
 
+# 다른 방법 
+string = input('문자열을 입력하세요 > ')
+count = 0
+
+for str in string:
+    if str == 'e':
+        count += 1
+    
+print(count)
+
 #===================================================================
 # 문제 2
 # 문자열을 입력 받고, 문자열 중 알파벳 모음의 총 개수를 출력하세요.
@@ -24,17 +34,34 @@ print(len(string_list))
 
 # 단, count() 메서드는 사용하지마세요.
 
-string_list=[]
+list = ['a','e','i','o','u','A','E','I','O','U']
 
-alphabet = {'1반':['A','a', 'E','e', 'I','i','O','o', 'U','u']}
+string = input ('문자열을 입력하세요 > ')
+count = 0
+for str in string:
+    if str in list: # 'in'사용
+        count += 1
 
-string = input('문자열을 입력하세요 > ')
+print(count)
 
-for element in string:
-    if element == alphabet['1반']:
-        print(element)
+## 다른 방법
 
-########일단 시도.. 내일 해석 봐보자
+count = 0
+for str in string:
+    if (
+        str == 'a'
+        or str == 'e'
+        or str == 'i'
+        or str == 'o'
+        or str == 'u'
+        or str == 'A'
+        or str == 'E'
+        or str == 'I'
+        or str == 'O'
+        or str == 'U'
+    ):
+        count += 1
+print(count)
 
 #===================================================================
 # 문제 3
@@ -46,14 +73,22 @@ dict_variable = {
     "회사": "하이퍼그로스",
 }
 
-# 나이 : 24세
-########일단 시도.. 내일 해석 봐보자
-# print(dict_variable['생년']) #20000101
-# print(type(dict_variable['생년'])) # 20000101은 str(문자 타입)
+dict_variable['생년'] = 2000  # 생년을 2000(숫자)으로 바꾸기
+print(dict_variable['생년']) # 2000
 
-# result = (dict_variable['생년'])[0:4] # 문자열을 0번째부터 3번째까지의 문자열을 가져오기
-# print(result) #2000
+dict_variable['나이'] = 2024 - dict_variable['생년'] 
+print(dict_variable['나이']) # 24
 
+
+#-------------------------------------------
+
+print(dict_variable['생년']) # 20000101
+print(type(dict_variable['생년'])) # 20000101은 str(문자 타입)
+
+result = (dict_variable['생년'])[0:4] # 문자열을 0번째부터 3번째까지의 문자열을 가져오기
+print(result) # 2000 (문자타입)
+
+#-------------------------------------------
 
 #### 다른 접근(딕셔너리에 key와 value 추가)
 
@@ -68,11 +103,21 @@ name = input('이름을 입력하세요 > ')
 number = input('전화번호를 입력하세요 > ')
 address = input('거주지를 입력하세요 > ')
 
-info = {'이름': name, '전화번호': number, '거주지':address}
+dic = {'이름': name, 
+        '전화번호': number, 
+        '거주지':address
+}
+
+print(dic)
 
 print(f'이름 : {name}')
 print(f'전화번호 : {number}')
 print(f'거주지 : {address}')
+
+더 좋은 코드
+for key, value in dic.items():
+    print(f'{key} : {value}')
+
 #===================================================================
 
 # 문제 5
@@ -85,17 +130,32 @@ number = input('전화번호를 입력하세요 > ')
 email = input('이메일를 입력하세요 > ')
 address = input('거주지를 입력하세요 > ')
 
-info = {name: {'전화번호': number, '이메일': email, '거주지': address}}   # 딕셔너리 안에 딕셔너리를 넣을 수 있다.
+dic = {
+    name: {
+        '전화번호': number, 
+        '이메일': email, 
+        '거주지': address
+    }
+}   # 딕셔너리 안에 딕셔너리를 넣을 수 있다.
 
-print(info)
+print(dic)
+
 #===================================================================
 
 
-# 문제 6
+# 문제 6 (딕셔너리) 🎀
 # 문자열을 입력받고, 문자열에서 개별 문자가 나오는 횟수를 출력하세요.
 
 # 단, count() 메서드는 사용하지마세요.
 
-# string = input('문자열을 입력하세요 > ')
+string = input("문자열을 입력하세요 > ")
+dict_variable = {}
+for char in string:
+    if char in dict_variable.keys():
+        dict_variable[char] += 1
+    elif char not in dict_variable.keys():
+        dict_variable[char] = 1
 
-#########모르겠음
+for key, value in dict_variable.items():
+    print(key, value)
+
