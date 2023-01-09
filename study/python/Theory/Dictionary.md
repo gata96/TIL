@@ -52,7 +52,7 @@ key를 이용해서 value 찾기
 #['오은정', '고멘시']
 ```
 
-### `.get()`
+### `.get(키값)`
 
 
 ```python
@@ -120,6 +120,16 @@ students['Meu Gato'] = 95
 print(students['오은정']) # 99
 print(students)  # {'오은정': 99, 'Lucas': 80, 'Meu Gato': 95}
 ```
+<br>
+
+## `변수.update(key ='new value')
+```python
+dict = {'apple':'사', 'banana':'바나나'}
+dict.update(apple = '사과')
+print(dict)
+# {'apple': '사과', 'banana': '바나나'}
+```
+
 
 ## 5) 키 삭제: ` .pop` 또는 `del`
 ## `변수.pop('key')`
@@ -203,3 +213,6 @@ for name in students:
 학교 = {'1반':['오은정', '고멘시'], '2반': ['sabbar', 'minha'] }
 print(학교.clear())  # None
 print(학교)          # {} 
+
+```
+
