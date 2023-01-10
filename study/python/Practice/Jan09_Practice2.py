@@ -5,21 +5,14 @@
 
 # 단, index() / find() 메서드는 사용하지마세요.
 
-# string = input('문자열을 입력하세요 > ')
-# total=[]
 
-# for str in string:
-#     if str == 'e':
-#         total += str
-#         print(total)
+# string = input("문자열을 입력하세요 > ")
+# result = -1
+# for index in range(len(string)):
+#     if string[index] == 'e':
+#         result = index
 
-
-
-# e발견
-# 몇 번째? 
-# e까지 리스트에 담아
-# 리스트안의 원소 개수 세고 -1
-
+# print(result)
 
 # 문제 2
 # 문자열을 입력받고, 각 단어의 등장 횟수를 출력하세요.
@@ -41,6 +34,55 @@
 
 # 만약 split()이 없으면, 문자열을 입력하세요 > hello word
 # {'h': 1, 'e': 1, 'l': 2, 'o': 2, ' ': 1, 'w': 1, 'r': 1, 'd': 1} 이렇게 나온다.
+
+
+
+
+
+
+
+# 띄어쓰기를 기준으로 같은 단어가 있으면, cnt에 숫자 1씩 더하기
+# 같은 단어 아니면, 단어랑, 1 작성
+
+string = input('문자열을 입력하세요 > ').split() # 공백을 기준으로 단어구분
+dic = {} # 딕셔너리 설정
+
+for word in string: # word는 띄어쓰기를 기준으로한 단어
+    if word in dic: # wo
+        dic[word] += 1
+    
+    elif word not in dic:
+        dic[word] = 1
+
+for key, value in dic.items():
+    print(f'{key}, {value}')
+
+
+
+
+
+
+
+
+#입력한 거랑 횟수
+# print(string, cnt)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # 문제 3. 문자열을 입력받고, e 를 제거한 결과를 출력하세요. 
 # 단, replace() 메서드는 사용하지 마세요.
