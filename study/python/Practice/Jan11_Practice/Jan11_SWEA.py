@@ -1,7 +1,7 @@
 # 문제 1. 소문자를 대문자로 바꾸기
 
-string = input().upper()
-print(string)
+print(input().upper())
+
 
 # 문제 2. 주어진 모든 수 더하기
 
@@ -10,6 +10,12 @@ total = 0
 for i in range(1,number+1):
     total += i
 print(total)
+
+n = int(input())
+a = range(1, n+1)
+print(sum(a))
+
+
 
 
 
