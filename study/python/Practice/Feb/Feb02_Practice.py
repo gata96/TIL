@@ -1,40 +1,40 @@
 # # # 공
 
-# # import sys
-# # sys.stdin = open('input.txt','rt')
-# # input = sys.stdin.readline
+import sys
+sys.stdin = open('input.txt','rt')
+input = sys.stdin.readline
 
-# N = int(input())
+N = int(input())
 
-# cups = [1,2,3] 
-# for _ in range(N):
-#     x, y = map(int, input().split()) # 숫자 입력
+cups = [1,2,3] 
+for _ in range(N):
+    x, y = map(int, input().split()) # 숫자 입력
     
-#     xi = cups.index(x) # 입력 받은 숫자의 인덱스를 구해주기
-#     yi = cups.index(y)
+    xi = cups.index(x) # 입력 받은 숫자의 인덱스를 구해주기
+    yi = cups.index(y)
 
 #     cups[xi], cups[yi] = cups[yi], cups[xi] # 인덱스를 이용해서 공의 위치를 바꿈
 # print(cups[0]) # 공의 위치가 인덱스 0에 있으니까, 인덱스 0에 해당하는 숫자를 출력
 
 
 # # # 콘테스트
-# # # import sys
-# # # sys.stdin = open('input.txt','rt')
-# # # input = sys.stdin.readline
+import sys
+sys.stdin = open('input.txt','rt')
+input = sys.stdin.readline
 
-# W = []
-# K = []
-# for i in range(20):
-#     score = int(input())    
-#     if i < 10:
-#         W.append(score)
-#     else:
-#         K.append(score)
+W = []
+K = []
+for i in range(20):
+    score = int(input())    
+    if i < 10:
+        W.append(score)
+    else:
+        K.append(score)
     
-#     W_sorted = sorted(W)
-#     K_sorted = sorted(K)
+    W_sorted = sorted(W)
+    K_sorted = sorted(K)
 
-# print(sum(W_sorted[-3:]),sum(K_sorted[-3:]))
+print(sum(W_sorted[-3:]),sum(K_sorted[-3:]))
 
 
 
@@ -56,7 +56,7 @@ for i in range(T): #for문을 돌면서 앞 높이랑 뒤 높이랑 비교해서
 
 print(max(lst))
 
-----
+########
 n = int(input())
 li = list(map(int,input().split()))
 
@@ -68,8 +68,9 @@ for i in range(n-1):
         li_t.append(t)
         t = 0
 li_t.append(t)
----
 
+
+#########
 n=int(input())
 
 road=list(map(int,input().split()))
@@ -88,7 +89,7 @@ for i in range(n-1):
         start=i+1
 
 print(max(uphill))
----
+#########
 
 import sys
 
