@@ -16,7 +16,7 @@
 [심화]
 DFS, BFS, 백트래킹, 이진탐색, DP, 다익스트라, 크루스칼, 프림
 
-# Stack(스택)
+# 1. Stack(스택)
 
 뷔페에서 제일 위에 있는 접시를 꺼내듯이, 가장 마지막에 들어온 데이터가 가장 먼저 나가는 방식의 LIFO(Last-in First-out, 후입선출)방식
 
@@ -34,4 +34,31 @@ top : 스택에서 가장 최신 데이터
 - 백트래킹
 - DFS(깊이 우선 탐)
 
-1월 26일 유튜브 2:02:52 괄호매칭 부터 시청하기
+## 스택에서는 append와 pop을 이용하면 된다.
+```python
+lst = []
+
+for i in range(int(input())):
+    say = int(input())
+    
+    if say == 0:
+        lst.pop()
+        
+    else:
+        lst.append(say)
+        
+ 
+print(sum(lst))
+```
+
+# 2. 큐(Queue)
+가장 오래된 데이터가 먼저 나간다. FIFO(First-in First- out, 선입 선출)
+ex) 줄 설때도 가장 오래 기다린 사람이 카페 주문을 함으로 줄에서 벗어날 수 있는 것과 마찬가지.
+가장 오래 기다린 데이터를 꺼내는 것 : Dequeue = pop(0)
+맨 뒷 줄에 새로운 사람을 넣는 것 : Enqueue = append
+
+## 언제 큐를 사용할까?
+대기열 필요할때
+- BTS 티켓팅 할 때
+- 프로세스 관리(데이터 버퍼)
+- 클라이언트/서버(Message Queue)
