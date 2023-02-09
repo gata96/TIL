@@ -1,21 +1,21 @@
 # Today I Learned 📚
 
 # Python
----
+
 - [파이썬 및 Vs code 설치, 2023 다짐 (26th Dec 2022)](https://github.com/gata96/TIL/blob/master/Python/Theory/2023_My_goal.md)
 - Markdown (27th Dec)
 - Git (27th Dec)
 - Github (28th Dec)
 - Branch (29th Dec)
 - 취업특강 (30th Dec)
-- [(Python_basic (2th Jan 2023)](https://github.com/gata96/TIL/blob/master/Python/Theory/Python_basic.md)
+- [Python_basic (2th Jan 2023)](https://github.com/gata96/TIL/blob/master/Python/Theory/Python_basic.md)
 - If_For문 (3th Jan)
 - While (4th Jan)
 - Function (4th Jan)
 - Dictionary (5th Jan)
 - Json & File Input/Output (6th Jan)
 - E-learning 1 (7th Jan)
-- 실습 복습 (8th Jan)
+- Practical Review(실습 복습)   (8th Jan)
 - Methods (9th Jan)
 - User-defined functions(사용자 정의 함수) (10th Jan)
 - User-defined class(사용자 정의 클래스) (11th Jan)
