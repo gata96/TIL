@@ -1,3 +1,5 @@
+# KDT 2기 2월 8일 학습 내용
+
 # Workbench 활용 가이드
 ## Workbench 활용 MYSQL 접속 방법
 
