@@ -16,10 +16,10 @@ DROP TABLE users;
 INSERT INTO 
 	users (first_name,last_name,birthday,city,country,email)
 VALUES
-	('Beemo','Jeong','1000-01-01','','','beemo@hphk.kr'),
-    ('Jieun','Lee','1993-05-16','Seoul','Korea',''	),
-    ('Dami','Kim','1995-04-09','Seoul','Korea',''),
-    ('Kwangsoo','Lee','1985-07-14','Seoul','Korea','');
+	('Beemo','Jeong','1000-01-01',NULL,NULL,'beemo@hphk.kr'),
+    ('Jieun','Lee','1993-05-16','Seoul','Korea',NULL	),
+    ('Dami','Kim','1995-04-09','Seoul','Korea',NULL),
+    ('Kwangsoo','Lee','1985-07-14','Seoul','Korea',NULL);
 SELECT * FROM classicmodels.users;
 
 -- 문제3
@@ -38,27 +38,28 @@ SET
     birthday = '1996-11-11'
 WHERE
 	userID = 5;
--- 문제 5 😓
-SET SQL_SAFE_UPDATES =0;
-UPDATE
-	users
-SET
-	country = REPLACE(country,'NULL', 'Korea');
-	
-SELECT * FROM classicmodels.users;
+-- 문제 5 
+-- 테이블 users 에서 country 필드가 NULL 인 모드 레코드의 country 필드 값을 Korea 로 변경하시오.
+UPDATE users
+SET country = 'Korea'
+WHERE country IS NULL;
+SELECT * FROM users;
 
--- 문제6 😓
+-- 문제6
+-- 테이블 users 에서 first_name 필드가 Beemo 인 레코드를 삭제하시오.
 DELETE FROM
 	users
 WHERE
-	userID = 1;
+	first_name = 'Beemo';
+    
 SELECT * FROM users;
 
 -- 문제7
 DELETE FROM
 	users
 WHERE
-	userID = 4;
+	first_name = 'Kwangsoo' and
+    last_name = 'Lee';
 
 -- 문제 8
 DELETE FROM
