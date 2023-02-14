@@ -69,3 +69,4 @@ ALTER TABLE : 테이블 필드를 조작(생성, 수정, 삭제)
 |ALTER TABLE MODIFY|필드 속성 변경|
 |ALTER TABLE CHANGE COLUMN|필드 이름 변경|
 |ALTER TABLE DROP COLUMN|필드 삭제|
+

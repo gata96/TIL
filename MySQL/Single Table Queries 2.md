@@ -15,9 +15,11 @@
     - LIKE
     - Comparison
     - Logical
+
+
 ✅ DISTINCT : 중복 제거
 - SELECT 키워드 바로 뒤에 작성
-- SELECT DISTINCT 키워드 다음에 유일하길 원하는 하나 이상의 필드 선택
+- SELECT DISTINCT 키워드 다음에 유일했으면 좋겠는 하나 이상의 필드를 선택
 
 ```SQL
 SELECT DISTINCT
@@ -92,16 +94,21 @@ WHERE
     firstName LIKE '___y';
 ```
 ✅ Wildcard Characters
+
 '%' : 0개 이상의 문자열과 일치하는지 확인
+
 '_' : 단일 문자와 일치하는지 확인
 
 ✅ Comparison Operators
+
 =, >=, <=, IS, LIKE, IN, BETWEEN, AND
 
 ✅ Logical Operators
+
 AND(&&), OR(||), NOT(!)
 
 ✅ LIMIT : 데이터 잘라서 출력하기
+
 예시 1
 ```SQL
 SELECT
@@ -124,7 +131,8 @@ LIMIT 7;
 => ORDER BY 한 다음에 LIMIT
 
 예시 3
-4번째부터 7번째 데이터만 조회
+
+4번째부터 7번째까지 데이터 조회
 ```sql
 SELECT contactFirstName, creditLimit
 FROM customers
@@ -138,11 +146,37 @@ LIMIT 4 OFFSET 3;
 ```
 ## 4. Grouping data
 GROUP BY
-- 레코드를 그룹화하여 요약본 생성 Aggregation Functions(집계함수)와 같이 쓰인다.
-- 
+- 레코드를 그룹화하여 요약본 생성 
+- SUM, AVG, MAX, MIN, COUNT와 함께 쓰인다.
+- 중복을 제거한다.
 
-- Aggregation Functions: 계산 후에 값을 반환하는 함수
-SUM, AVG, MAX, MIN, COUNT
+```sql
+-- jobTitle 필드를 그룹화
+SELECT jobTitle
+FROM employees
+GROUP BY jobTitle;
+```
+```sql
+--count 함수는 해당 필드가 몇번 나오는지 카운트해준다.
+SELECT jobTitle, COUNT(*)
+FROM employees
+GROUP BY jobTitle;
+```
+```sql
+-- country필드를 그룹화하여 각 그룹에 대한 creditLimit 평균 값을 내림차순 조회
+SELECT country, AVG(creditLimit) AS average
+FROM customers
+GROUP BY country
+ORDER BY average DESC;
+```
+```sql
+SELECT country,  AVG(creditLimit)
+FROM customers
+GROUP BY country
+HAVING AVG(creditLimit) > 80000;
+```
+## 5. NULL 정렬
+데이터에 NULL이 존재할 경우, 오름차순 정렬시 결과에 NULL이 먼저 온다.
 
 
 
