@@ -40,9 +40,12 @@
 - [Algorithm Week 3 mock test (10th Feb)]
 
 # SQL
-- [Workbench 활용 가이드 (8th Feb)]
-- [Relational Database Terms (8th Feb)]
-- [SQL - [Single Table Queries 1 (9th Feb)]
+- [Workbench 활용 가이드 (8th Feb)](https://github.com/gata96/TIL/blob/master/MySQL/Workbench%20%ED%99%9C%EC%9A%A9%20%EA%B0%80%EC%9D%B4%EB%93%9C.md)
+- [Relational Database Terms (8th Feb)](https://github.com/gata96/TIL/blob/master/MySQL/Relational%20Database%20Terms.md)
+- [Single Table Queries 1 (9th Feb)](https://github.com/gata96/TIL/blob/master/MySQL/Single%20Table%20Queries%201.md)
+- [Single Table Queries 2 (13th Feb)](https://github.com/gata96/TIL/blob/master/MySQL/Single%20Table%20Queries%202.md)
+- [Managing Tables (14th Feb)](https://github.com/gata96/TIL/blob/master/MySQL/Managing%20Tables.md)
+- [Multi Table Queries (15th Feb)](https://github.com/gata96/TIL/blob/master/MySQL/Multi%20Table%20Queries.md)
 
 
 
