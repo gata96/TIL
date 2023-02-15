@@ -15,29 +15,29 @@ RDMBS를 통해 테이블을 구조화할 수 있고 외래키로 테이블간�
 - 관계형 데이터베이스에서는 Row와 Column이라는 용어를 잘 쓰지 않는다.
 
 4개의 Field
-[id(정수), 이름,청구지,주소지(문자열)](./Image/10.png)
+[id(정수), 이름,청구지,주소지(문자열)](https://github.com/gata96/TIL/blob/master/MySQL/Img/10.png)
 
-3. Record(aka Row, Tuple)
+3. [Record(aka Row, Tuple)](https://github.com/gata96/TIL/blob/master/MySQL/Img/11.png)
 - 행
 - 각 레코드에는 구체적인 `데이터 값`이 저장됨
 - 레코드 한 줄이 데이터 한 줄
 
-4. Database(aka Schema)
+4. [Database(aka Schema)](https://github.com/gata96/TIL/blob/master/MySQL/Img/12.png)
 - 테이블의 집합(Set of tables)
 
-5. Primary Key(기본키)
+5. [Primary Key(기본키)](https://github.com/gata96/TIL/blob/master/MySQL/Img/13.png)
 - 각 레코드의 고유한 값
 - 관계형 데이터베이스에서 각각의 레코드를 구분할 수 있는 식별자
 - 식별자이기에, 중복이 있으면 안되고 유일해야 한다.
 
-6. Foreign Key(외래키)✨
+6. [Foreign Key(외래키)✨](https://github.com/gata96/TIL/blob/master/MySQL/Img/14.png)
 - 테이블들의 필드 중 다른 테이블의 레코드를 식별할 수 있는 키
 - 각 레코드에서 서로 다른 테이블 간의 `관계를 만드는 데 ` 사용
 - 관계형 데이터 베이스에서의 핵심
 
 Data를 잘 다루기 위해서는 Table을 잘 다뤄야하고, Table을 다루기 위해서는 Database를 다뤄야하는데 Database 자체를 다루는 건 쉽지않아서, Database를 관리할 수 있도록 도와주는 Tool이 존재한다.
 
-# RDBMS (Relational Database Management System)
+# [RDBMS (Relational Database Management System)](https://github.com/gata96/TIL/blob/master/MySQL/Img/15.png)
 - 관계형 데이터베이스를 관리하는 소프트웨어 프로그램
 
 ## DBMS (Database Management System)
