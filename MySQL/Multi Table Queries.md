@@ -3,9 +3,7 @@
 테이블을 분리하는 이유? 관리하기 편하도록
 => 테이블을 분리하면 관리는 용이해질 수 있으나 출력 할 때는 테이블 한 개만은 출력할 수 없어서 다른 테이블과 연결지어 출력해야한다.
 
-✅ JOIN 사용
-
-# JOIN
+# [JOIN](https://github.com/gata96/TIL/blob/master/MySQL/Img/Join.png)
 둘 이상의 테이블에서 데이터를 검색하는 방법
 
 ## JOIN의 종류
