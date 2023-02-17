@@ -191,8 +191,18 @@ FROM customers
 GROUP BY country
 HAVING AVG(creditLimit) > 80000;
 ```
-## 5. NULL 정렬
+## 5. NULL
 데이터에 NULL이 존재할 경우, 오름차순 정렬시 결과에 NULL이 먼저 온다.
 
+### NULL 사용
+
+- ISNULL
+```SQL
+IFNULL(FREEZER_YN,'N') AS FREEZER_YN
+```
+- IF
+```SQL
+IF(FREEZER_YN IS NULL, "N", FREEZER_YN) AS FREEZER_YN
+```
 
 
