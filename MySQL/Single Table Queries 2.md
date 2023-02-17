@@ -53,14 +53,15 @@ WHERE
 WHERE
     jobtitle >= 3 OR coffee = 'Sales Rep'
 ```
-✅ BETWEEN AND
-- 'office 값이 1과 4 사이인 값'을 쓰고 싶을 때 BETWEEN AND 을 쓴다.
+✅ BETWEEN A AND B
+- A 이상 B 이하
 - WHERE 절 다음에 ORDER BY를 쓴다.
 
 ```SQL
 WHERE
     office BETWEEN 1 AND 4
 ORDER BY office;
+-- 'office 값이 1이상 4이하인 값'
 ```
 ✅ IN
 - 1 또는 3 또는 4
@@ -74,6 +75,8 @@ WHERE
 WHERE
     office NOT IN (1,3,4)
 ```
+<BR>
+
 ✅ LIKE : 같이 특정 패턴에 일치하는지 확인
 - 예시1 '테이블 employees에서 lastName 필드 값이 son으로 끝나는 데이터의 lastName, firstName을 조회'
 ```SQL
@@ -84,7 +87,9 @@ FROM
 WHERE 
     lastName LIKE '%son';
 ```
+
 - 예시2 '테이블 employees에서 lastName 필드 값이 4자리면서 y로 끝나는 데이터의 lastName, firstName을 조회'
+
 ```SQL
 SELECT 
     lastName, firstName
@@ -93,6 +98,15 @@ FROM
 WHERE
     firstName LIKE '___y';
 ```
+```SQL
+WHERE YEAR(joined) = '2021' 
+    
+WHERE JOINED LIKE '2021%'
+--이 둘은 같은 결과를 출력한다.
+```
+
+<BR>
+
 ✅ Wildcard Characters
 
 '%' : 0개 이상의 문자열과 일치하는지 확인
@@ -107,7 +121,7 @@ WHERE
 
 AND(&&), OR(||), NOT(!)
 
-✅ LIMIT : 데이터 잘라서 출력하기
+✅ LIMIT : 데이터 구간을 잘라서 출력하기
 
 예시 1
 ```SQL
@@ -144,6 +158,8 @@ LIMIT 3,4
 LIMIT 4 OFFSET 3;
 -- 이 둘은 서로 동일한 코드
 ```
+<BR>
+
 ## 4. Grouping data
 GROUP BY
 - 레코드를 그룹화하여 요약본 생성 
