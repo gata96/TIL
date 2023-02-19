@@ -47,6 +47,8 @@
 - [Managing Tables (14th Feb)](https://github.com/gata96/TIL/blob/master/MySQL/Managing%20Tables.md)
 - [Multi Table Queries (15th Feb)](https://github.com/gata96/TIL/blob/master/MySQL/Multi%20Table%20Queries.md)
 
+- [Subquery](https://github.com/gata96/TIL/blob/master/MySQL/Subquery.md)
+
 
 
 
