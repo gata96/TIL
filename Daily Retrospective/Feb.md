@@ -54,33 +54,29 @@ SQL은 간단해서 그런지 매일 과제도 잘 수행하고 있고, TIL도 �
 
 📓2월 17일
 
-[Programmers(프로그래머스) Lv.0 23 문제 풀기](https://github.com/gata96/TIL/blob/master/MySQL/Img/feb17.png)
+[Programmers(프로그래머스) Lv.1 23 문제 풀기](https://school.programmers.co.kr/learn/challenges?order=acceptance_desc&languages=mysql&page=1&levels=1)
 
 SQL 문제를 프로그래머스에서 풀어봤다. 프로그래머스가 언어도, 난이도도, 문제수도, 답지도, 작성창도 바로 있어서 여러모로 편리했다. 백준도 좋긴한데 프로그래머스의 아이콘들이 눈에 직관적이고 진짜 풀고 있다는 느낌도 받아서 성취감이 더 있었다. 확실히 개념만 복습하는 것보다 문제를 풀어봐야 실력이 느는 것 같다.
 
 📓2월 18-19일
 
-[Programmers(프로그래머스) Lv.1 문제 주말 이용해서 풀기]
+[Programmers(프로그래머스) Lv.2 문제 주말 이용해서 풀기](https://school.programmers.co.kr/learn/challenges?order=acceptance_desc&languages=mysql&page=1&levels=2)
 아직까지는 쉽다. 주말이용해서 못다한 공부 보충하고, 조금씩이라도 꾸준히 하는게 중요하다.
 
 
-📓2월 20일
+📓2월 20-21일
 
-[Programmers(프로그래머스) Lv.3-4 문제 풀기]가 과제 였지만 아직 2단계에서 허덕이고 있는 나는 3단계 푸는게 벅찼다. 매일 조금씩 3,4단계 풀어봐야지.
-
-📓2월 21일
-
+[Programmers(프로그래머스) Lv.3-4 문제 풀기](https://school.programmers.co.kr/learn/challenges?order=acceptance_desc&languages=mysql&page=1&levels=3%2C4)가 과제 였지만 아직 2단계에서 허덕이고 있는 나는 3단계 푸는게 벅찼다. 매일 조금씩 3,4단계 풀어봐야지.
 
 📓2월 22일
 
-[Feb22-HTML,CSS 기초](https://github.com/gata96/TIL/tree/master/Web/Web_practice/Feb22-HTML%2CCSS%20%EA%B8%B0%EC%B4%88)
-
+[Feb22-HTML,CSS 기초](https://github.com/gata96/TIL/tree/master/Web/Feb22-HTML%2CCSS%20%EA%B8%B0%EC%B4%88)
 한국과 시차가 9시간이나 나서 3시간도 채 못 잔 채로 오늘은 하루종일 포르투갈 시내를 돌아다녔다. 포르투갈의 자정은 한국의 아침 9시인데 하루종일 걷고 밤새 버틸 수 있을리가 없다. 노트북 켜놓고 눈껌벅이며 교육 듣다가 눈 떠보니 한국시간으로 낮 4시. 오늘 걸었으면 내일은 뛰어야해. 미룰수록 눈덩이 처럼 늘어나니까 열심히 자고 열심히 다시 공부해야겠다.
 
 
 📓2월 23일
 
-[Feb23-The box model of Web](https://github.com/gata96/TIL/tree/master/Web/Web_practice/Feb23-The%20box%20model%20of%20Web)
+[Feb23-The box model of Web](https://github.com/gata96/TIL/tree/master/Web/Feb23-The%20box%20model%20of%20Web)
 
 5일 동안 포르투갈 집에 혼자. 오히려 혼자 있으니 공부도 잘됐고 수업 집중도 쉬웠다.
 HTML과 CSS를 배웠는데 오히려 마크다운이나 파이썬, SQL보다 더 어려웠다. 정해진 답 없이 표지를 꾸미고 보여지는 것에 신경쓰는 쪽이다 보니 더 어려웠던 것 같다. 예쁘게 꾸미고 아이디어가 좋을 수록 CSS에 센스가 있을 것 같다는 느낌도 받았다. 회사 다닐때 부터 느꼈던 거지만 나는 역시 프론트보다 백엔드쪽이 더 맞는 것 같다. 파이썬은 어렵지만 보람있고, SQL은 데이터 구조화를 보는게 재밌다. HTML과 CSS는 좀 난해하고 이해가 팍 오는 느낌이 아직은 없다. + 파이썬 알고리즘 스터디를 시작했다. 매주 수요일에 6문제 코드 공유를 하기로 했다. 안하는 것보다 백만배 낫다. 진작 시작할 걸.
@@ -94,17 +90,17 @@ HTML과 CSS를 배웠는데 오히려 마크다운이나 파이썬, SQL보다 �
   - 나는 누구인가?
   - 왜 여기서 개발을 배우는가?
   
-2. 데이터 베이스 평가 P/F
+1. 데이터 베이스 평가 P/F
    * 간단한 문제들이었는데 그 며칠 사이에 SQL문제 안풀었다고 잊어버린 개념이 꽤 있었다. 하루에 꼭 한 문제 씩이라도 풀면서 감을 잃지 않는 게 중요할 것 같다.
   
-3. 웹 프로젝트 : 프로필 카드 만들기
+2. 웹 프로젝트 : 프로필 카드 만들기
   - VSCode Live Share로 다른 개발자와 소통하고 고민하며 개발 진행
   - HTML을 활용한 웹 페이지 마크업
   - CSS를 활용한 카드 레이아웃 및 컨텐츠 디자인
 
    * 처음으로 VSCode Live share 기능을 써봤다. 전 실습조에서 만난 민욱님과 우연히 웹 프로젝트에서 만나게 됐는데 반가웠고 개발하는데 있어 의사소통이나 코드 작성 등이 수월해서 결과적으로 만족스러웠던 프로젝트였다. 처음에 한분이 안오셔서 1:1로 진행하게 되어 걱정했는데 오히려 두명이라 핑퐁도 잘 됐고 50%:50%로 드라이버와 네비게이터 역할을 딱 구분 짓지 않고 동시적으로 번갈아 가면서 하니 오히려 효율이 좋았다. 내가 10년 넘게 팬인 저스틴비버의 프로필 카드를 만들 수 있어서 행복했고, 팀원이 적어서 눈치보지 않고 의견도 적극적으로 낼 수 있고 피드백 수용도 바로 받을 수 있어서 좋았다.
 
-4. 파이썬 알고리즘 스터디
+1. 파이썬 알고리즘 스터디
    - 백준 '그림' BFS 사용
 
    * 혼자 공부했으면 절대 풀지 않았을 난이도의 문제. 팀원들과 함께 하니까 풀도록 노력할 수 밖에 없는 구조여서 유튜브나 인터넷을 찾아보고 어떻게든 이해하려고 하는 모습을 스스로 볼 수 있었다. 역시 개발 공부는 함께 해야돼. 
