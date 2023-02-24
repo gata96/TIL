@@ -48,6 +48,8 @@
 - [Managing Tables](https://github.com/gata96/TIL/blob/master/MySQL/Managing%20Tables.md)
 - [Multi Table Queries](https://github.com/gata96/TIL/blob/master/MySQL/Multi%20Table%20Queries.md)
 - [Subquery](https://github.com/gata96/TIL/blob/master/MySQL/Subquery.md)
+- [Advanced1](https://github.com/gata96/TIL/tree/master/MySQL/Feb20-Advanced1)
+- [Advanced2](https://github.com/gata96/TIL/tree/master/MySQL/Feb21-Advanced2)
 
 # Web
 - [HTML,CSS 기초](https://github.com/gata96/TIL/tree/master/Web/Feb22-HTML%2CCSS%20%EA%B8%B0%EC%B4%88)
