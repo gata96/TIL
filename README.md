@@ -41,18 +41,18 @@
 - [Algorithm Week 3 mock test (10th Feb)]
 
 # SQL
-- [Workbench 활용 가이드](https://github.com/gata96/TIL/blob/master/MySQL/Workbench%20%ED%99%9C%EC%9A%A9%20%EA%B0%80%EC%9D%B4%EB%93%9C.md)
-- [Relational Database Terms](https://github.com/gata96/TIL/blob/master/MySQL/Relational%20Database%20Terms.md)
-- [Single Table Queries 1](https://github.com/gata96/TIL/blob/master/MySQL/Single%20Table%20Queries%201.md)
-- [Single Table Queries 2](https://github.com/gata96/TIL/blob/master/MySQL/Single%20Table%20Queries%202.md)
-- [Managing Tables](https://github.com/gata96/TIL/blob/master/MySQL/Managing%20Tables.md)
-- [Multi Table Queries](https://github.com/gata96/TIL/blob/master/MySQL/Multi%20Table%20Queries.md)
-- [Subquery](https://github.com/gata96/TIL/blob/master/MySQL/Subquery.md)
-- [Advanced1](https://github.com/gata96/TIL/tree/master/MySQL/Feb20-Advanced1)
-- [Advanced2](https://github.com/gata96/TIL/tree/master/MySQL/Feb21-Advanced2)
+- [Workbench 활용 가이드](https://github.com/gata96/TIL/blob/master/MySQL/Feb08-SQL%20Intro/Feb08-Workbench%20Basic.md)
+- [Relational Database Terms](https://github.com/gata96/TIL/blob/master/MySQL/Feb08-SQL%20Intro/Feb08-Relational%20Database%20Terms.md)
+- [Single Table Queries 1](https://github.com/gata96/TIL/blob/master/MySQL/Feb09-Single%20table%20queries1/Feb09-Single%20Table%20Queries%201.md)
+- [Single Table Queries 2](https://github.com/gata96/TIL/blob/master/MySQL/Feb13-Single%20table%20queries2/Feb13-Single%20Table%20Queries%202.md)
+- [Table](https://github.com/gata96/TIL/blob/master/MySQL/Feb14-Table/Feb14-Managing%20Tables.md)
+- [Joining tables](https://github.com/gata96/TIL/blob/master/MySQL/Feb15-Joining%20tables/Feb15-Joining%20tables.md)
+- [Subquery](https://github.com/gata96/TIL/blob/master/MySQL/Feb16-Subquery/Feb16-Subquery.md)
+- [Transaction](https://github.com/gata96/TIL/blob/master/MySQL/Feb20-Advanced1/Feb20-Transaction.md)
+- [Triggers](https://github.com/gata96/TIL/blob/master/MySQL/Feb20-Advanced1/Feb20-Triggers.md)
 
 # Web
-- [HTML,CSS 기초](https://github.com/gata96/TIL/tree/master/Web/Feb22-HTML%2CCSS%20%EA%B8%B0%EC%B4%88)
+- [HTML/CSS 기초](https://github.com/gata96/TIL/tree/master/Web/Feb22-HTML%2CCSS%20%EA%B8%B0%EC%B4%88)
 - [The Box Model of Web](https://github.com/gata96/TIL/tree/master/Web/Feb23-The%20box%20model%20of%20Web)
 - [Justin Bieber Card](https://github.com/gata96/TIL/tree/master/Web/Feb24-Justin%20Bieber%20card)
 
