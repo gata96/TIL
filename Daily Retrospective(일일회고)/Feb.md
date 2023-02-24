@@ -2,7 +2,7 @@
 
 [Feb08-SQL Intro](https://github.com/gata96/TIL/tree/master/MySQL/Feb08-SQL%20Intro)
 
-- SQL 첫날
+SQL 첫 날. 회사 다닐 때 까막눈 처럼 하나도 눈에 안들어왔었는데, 차근차근 개념이랑 실습을 단계별로 공부하니까 '회사에서 그때 그게 그거였구나' 싶었다.
 
 ### 📓2월 9일
 
@@ -54,13 +54,13 @@ SQL 문제를 프로그래머스에서 풀어봤다. 프로그래머스가 언�
 
 [Programmers(프로그래머스) Lv.2 문제 주말 이용해서 풀기](https://school.programmers.co.kr/learn/challenges?order=acceptance_desc&languages=mysql&page=1&levels=2)
 
-- 아직까지는 쉽다. 주말이용해서 못다한 공부 보충하고, 조금씩이라도 꾸준히 하는게 중요하다.
+아직까지는 쉽다. 주말이용해서 못다한 공부 보충하고, 조금씩이라도 꾸준히 하는게 중요하다.
 
 ### 📓2월 19일
 
 [Programmers(프로그래머스) Lv.3-4 문제 풀기](https://school.programmers.co.kr/learn/challenges?order=acceptance_desc&languages=mysql&page=1&levels=3%2C4)
 
-- 아직 2단계에서 허덕이고 있는 나는 3단계 푸는게 벅찼다. 매일 조금씩 3,4단계 풀어봐야지.
+아직 2단계에서 허덕이고 있는 나는 3단계 푸는게 벅찼다. 매일 조금씩 3,4단계 풀어봐야지.
 
 ### 📓2월 20일
 
@@ -73,6 +73,7 @@ SQL 문제를 프로그래머스에서 풀어봤다. 프로그래머스가 언�
 ### 📓2월 22일
 
 [Feb22-HTML,CSS 기초](https://github.com/gata96/TIL/tree/master/Web/Feb22-HTML%2CCSS%20%EA%B8%B0%EC%B4%88)
+
 한국과 시차가 9시간이나 나서 3시간도 채 못 잔 채로 오늘은 하루종일 포르투갈 시내를 돌아다녔다. 포르투갈의 자정은 한국의 아침 9시인데 하루종일 걷고 밤새 버틸 수 있을리가 없다. 노트북 켜놓고 눈껌벅이며 교육 듣다가 눈 떠보니 한국시간으로 낮 4시. 오늘 걸었으면 내일은 뛰어야해. 미룰수록 눈덩이 처럼 늘어나니까 열심히 자고 열심히 다시 공부해야겠다.
 
 
