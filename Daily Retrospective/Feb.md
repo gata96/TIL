@@ -7,7 +7,7 @@ SQL 첫날
 
 📓2월 9일
 
-[Single Table Queries 1.md](https://github.com/gata96/TIL/blob/master/MySQL/Single%20Table%20Queries%201.md)
+[Single Table Queries 1.md](https://github.com/gata96/TIL/blob/master/MySQL/Single%20Table%20Queries%201.md)****
 
 [Feb09-DB 04-01_SQL single table queries.sql](https://github.com/gata96/TIL/blob/master/MySQL/SQL_Practice/Feb09-DB%2004-01_SQL%20single%20table%20queries.sql)
 
