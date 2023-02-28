@@ -1,16 +1,9 @@
-1. 아이디어
-- 2중 for문 => 값 1 찾기 && 방문X 곳을 찾기 => BFS로 해결
-- BFS 돌면서 그림 개수 +1, 최댓값을 갱
+def recursive_function(i):
+    # 100번째 호출을 했을 때 종료될 수 있도록 종료 조건 명시
+    if i == 100:
+        return
+    print(f'{i}번째 재귀 함수에서 {i+1}번째 재귀함수를 호출합니다.')
+    recursive_function(i+1)
+    print(f'{i}번째 재귀 함수를 종료합니다.')
 
-
-
-
-import sys
-input = sys.stdin.readline
-
-n,m = map(int,input().split())
-# 그래프 전체 지도: 이중for문
-map = [list(map(int,input().split())) for _ in range(n)] 
-
-# 방문
-chk = [[False] * m for _ in range(n)]
+recursive_function(1)
