@@ -1,25 +1,7 @@
-'''
-1.아이디어
-- 주어진 N보다 큰 값을 찾고 cnt1씩 해준다.
-- 방문하지 않은 곳은 False, 이미 방문한 곳은 True 처리
-
-2. 시간복잡도
-O(V+E)
-V = N* N = 100 * 100 = 1만
-E = 4V = 4만
-V+E = 5만 < 2억 (=1초)
-
-3. 자료구조
-그래프: 전체 지도 필요, 이차원 배열 int[][]
-방문여부: bool[][]
-queue: BFS에서 사용
-'''
-
-
 import sys
-input = sys.stdin.readline 
+input = sys.stdin.readline
 
-from collections import depue # 시간절약
+from collections import deque # 시간절약
 def bfs(si,sj,h):
     q = deque()
     q.append((si,sj))
