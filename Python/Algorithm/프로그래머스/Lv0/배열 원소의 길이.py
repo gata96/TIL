@@ -1,5 +1,5 @@
-strlist = ["We", "are", "the", "world!"]
-answer = []
-for i in range(len(strlist)):
-    print(len(strlist[i]))
-    
+def solution(strlist):
+    answer = []
+    for i in range(len(strlist)):
+        answer.append(len(strlist[i]))
+    return answer
