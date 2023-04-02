@@ -1,5 +1,5 @@
 # Today I Learned 📚
-## [Daily Retrospective(일일회고)](https://github.com/gata96/TIL/tree/master/Daily%20Retrospective)
+## [Daily Retrospective](https://github.com/gata96/TIL/tree/master/Daily%20Retrospective)
 
 # Python
 
