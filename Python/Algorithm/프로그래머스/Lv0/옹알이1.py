@@ -1,30 +1,4 @@
-
-# def solution(babbling):
-#     babbling = ["ayaye", "uuuma", "ye", "yemawoo", "ayaa"]
-#     answer = 0
-#     prono = ['aya','ye','woo','ma']
-#     for i in babbling :
-#         for j in prono :
-#             if j+j in i :
-#                 break
-#             else :
-#                 i = i.replace(j,"").strip()
-#         if i :
-#             continue
-#         else :
-#             answer += 1
-        
-#     print(answer)
-
-# def solution(babbling):
-#     count = 0
-#     baby = ["aya", "ye", "woo", "ma"]
-#     for i in babbling:
-# #         if i in babbling:
-# #             count += 1
-# #         elif 
-# #     return count
-
+# 옹알이1
 def solution(babbling):
     answer = 0
     for i in babbling:
@@ -39,6 +13,30 @@ def solution(babbling):
             answer += 1
     return answer
 
-
 babbling = ["ayaye", "uuuma", "ye", "yemawoo", "ayaa"]
 print(solution(babbling))
+
+# 다음에 올 숫자
+def solution(common):
+    if common[1] - common [0] == common[2] - common[1]:
+        return common[-1] + (common[1] - common[0])
+    
+    elif common[1] // common[0] == common[2] // common[1]:
+        return common[-1] * (common[1] // common[0])
+
+
+# 연속된 수의 합
+def solution(num,total):
+    mid = total // num
+    half = num // 2
+    top = mid + half + 1
+    bottom = top - num
+    
+    answer = [i for i in range(bottom, top)]
+    return answer
+
+# 종이 자르기
+
+
+def solution(M, N):
+    return (M*N)-1
