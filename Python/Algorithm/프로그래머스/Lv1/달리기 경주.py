@@ -11,8 +11,8 @@
 
 # 첫번째 아이디어: 이름이 불리면 인덱스가 한칸씩 줄어들어 앞으로 이동한다.
 
-players = ["mumu", "soe", "poe", "kai", "mine"]
-callings = ["kai", "kai", "mine", "mine"]
+players = ["mumu", "soe", "poe", "kai", "mine"] #5만
+callings = ["kai", "kai", "mine", "mine"] # 100만
 result = ["mumu", "kai", "mine", "soe", "poe"]
 
 def solution(players,callings):
@@ -25,13 +25,13 @@ def solution(players,callings):
 # 문제 발생
 # callings에서 나오는 이름을 players에서 매번 전 탐색하는 것은 시간이 많이 걸림
 # 즉, callings 배열(크기:M)과 players 배열(크기:N)의 크기에 비례하기 때문에 시간복잡도는 둘의 곱인 O(MN)이 되어 이 방법으로 풀 수 없음
-# 일반적으로 O(n)에서 n의 값이 1억을 넘으면 통과가 어렵다고 보면 되는데, 문제 조건을 보면 백만*5만=5백억이라는 수가 나
+# 일반적으로 O(n)에서 n의 값이 1억을 넘으면 통과가 어렵다고 보면 되는데, 문제 조건을 보면 100만*5만=5백억
 
 # 2번째 아이디어 : 딕셔너리 이용하기
 # 딕셔너리 두 개 or 딕셔너리 하나와 리스트 하나가 필요
 
 def solution(players,callings):
-    # name:idx (선수이름:등수) 딕셔너리 만들기
+    # name:idx (선수이름:인덱스) 딕셔너리 만들기
     dic = {name:idx for idx, name in enumerate(players)} # 이름 = key, 인덱스 = value인 dictionary 만듦
     
     for name in callings: 
