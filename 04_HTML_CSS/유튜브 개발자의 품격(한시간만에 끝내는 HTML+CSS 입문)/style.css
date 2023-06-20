@@ -1,6 +1,24 @@
 .color-primary{
     color:green;     
 }
-.font-merong{
+.font-primary{
     font-size: 50px;
+}
+
+.select-style1{
+    height:40px;
+    font-size:20px;
+    color:red;
+}
+
+.tb-head>tr>td{
+    border: 1px solid #000; /* border는 선을 의미: 선 굵기는 1px, 선 색은 Black*/
+    font-size: 16px;
+    font-weight: bold;
+    color: violet;
+}
+
+.tb-body>tr>td{
+    border: 1px solid #000;
+    font-size: 14px;
 }
